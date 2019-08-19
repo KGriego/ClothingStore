@@ -1,0 +1,28 @@
+.header {
+  font-family: cursive;
+  .menu {
+    border-radius: 0% !important;
+  }
+
+  .barMenu {
+    cursor: pointer;
+  }
+  //if the width if greater than but less than less
+  @media only screen and (max-width: 1919px) and (min-width: 1200px) {
+    .noComputer {
+      display: none !important;
+    }
+  }
+  //if the width if greater than but less than less
+  @media only screen and (max-width: 1199px) and (min-width: 767px) {
+    .noComputer {
+      display: none !important;
+    }
+  }
+  //if the max width is xxpx or greather
+  @media only screen and (max-width: 767px) {
+    .onlyComputer {
+      display: none !important;
+    }
+  }
+}
